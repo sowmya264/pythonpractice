@@ -1,0 +1,44 @@
+import re 
+functions
+re.finall()
+re.match()-0-n-k1(str1) 0-n-1(str2)
+hello hello
+re.search()
+re.sub()
+re.compile()
+re.split()
+re.finditer()
+cases in regex:
+re.IGNORECASE / re.I
+re.MULTILINE / re.M  
+re.DOTALL / re.D
+re.VERBOSE / re.V  
+
+metachars-
+^-start of string
+$-end of ''
+*-occurences
++-occurences
+?-*+
+[]-set of ch
+()-grouping
+\ escaping
+.-newline
+\d-matches any decimal digits(0-9)
+\D-matches any non_digit  characters
+\d+ - one or more digits
+\w-matches any alphanumeric (word) characters[a-zA-Z0-9_]
+\W-matches any non-alphanumeric character
+\s-matches any whitespace characters
+\S-matches any non-whitespace space
+\b-matches where specified characters are at the beginning or at the end of word
+\B-matches where the specified characters are present,but NOT at the beginning
+ASCII,A:makes several escapes like \w,\b,\s and \DDOITALL,S:make .match any character,including newlines.
+IGNORECASE,I:Do case-insensitive matches.
+LOCALE,L:Do a locale_aware match.
+MULTILINE,M:Multiline matching,affecting ^ and $.
+VERBOSE,X:(for'extended'):Enable verbose REs,which can be organized more cleanly and understandably.
+
+
+
+
